@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+
+.div-inputs {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: 0;
+  justify-content: center;
+}
+
+.input {
+  width: 70px;
+  font-size: 20px;
+  border: solid 2px greenyellow;
+  border-radius: 7px;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-calcular {
+  font-size: 20px;
+  background-color: greenyellow;
+  color: rgb(36, 31, 31);
+  margin-top: 30px;
+  width: 25%;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.resultado {
+  border: yellowgreen 5px solid;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 20px;
+}
